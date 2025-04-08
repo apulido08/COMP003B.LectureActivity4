@@ -30,6 +30,13 @@
             </div>
         </nav>
     </header>
+    <main class="container mt-3">
+        @RenderBody()
+    </main>
+    <footer>
+        <p>&copy; 2025 - Razor Demo</p>
+    </footer>
+    @RenderSection("Scripts", required: false)
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
